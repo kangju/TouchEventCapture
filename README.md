@@ -1,7 +1,7 @@
 TouchEventCapture
 ===
 
-UIViewのタッチイベントを出力し画面上にその座標を表示します。
+UIViewのタッチイベントを取得し画面上にその座標を表示します。
 
 ## Licence
 
