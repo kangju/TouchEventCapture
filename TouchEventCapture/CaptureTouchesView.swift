@@ -11,12 +11,15 @@ import UIKit
 class CaptureTouchesView: UIView {
     
     
+    @IBOutlet weak var pointlabel: UILabel!
     
     override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
         
         for touch :AnyObject in touches{
             var point = touch.locationInView(self) as CGPoint
-            println("x:\(point.x) y:\(point.y)")
+            let pointstr = "x:\(point.x) y:\(point.y)"
+            pointlabel.text = pointstr
+            println(pointstr)
         }        
     }
     
