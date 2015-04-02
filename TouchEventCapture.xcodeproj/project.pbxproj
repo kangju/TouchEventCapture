@@ -13,6 +13,7 @@
 		85E958D31ACD5B6A00E8FCAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E958D21ACD5B6A00E8FCAF /* Images.xcassets */; };
 		85E958D61ACD5B6A00E8FCAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E958D41ACD5B6A00E8FCAF /* LaunchScreen.xib */; };
 		85E958E21ACD5B6A00E8FCAF /* TouchEventCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E958E11ACD5B6A00E8FCAF /* TouchEventCaptureTests.swift */; };
+		85E958EC1ACD5BAC00E8FCAF /* CaptureTouchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E958EB1ACD5BAC00E8FCAF /* CaptureTouchesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		85E958DB1ACD5B6A00E8FCAF /* TouchEventCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEventCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E958E01ACD5B6A00E8FCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E958E11ACD5B6A00E8FCAF /* TouchEventCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventCaptureTests.swift; sourceTree = "<group>"; };
+		85E958EB1ACD5BAC00E8FCAF /* CaptureTouchesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureTouchesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				85E958D21ACD5B6A00E8FCAF /* Images.xcassets */,
 				85E958D41ACD5B6A00E8FCAF /* LaunchScreen.xib */,
 				85E958C91ACD5B6A00E8FCAF /* Supporting Files */,
+				85E958EB1ACD5BAC00E8FCAF /* CaptureTouchesView.swift */,
 			);
 			path = TouchEventCapture;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				85E958CE1ACD5B6A00E8FCAF /* ViewController.swift in Sources */,
 				85E958CC1ACD5B6A00E8FCAF /* AppDelegate.swift in Sources */,
+				85E958EC1ACD5BAC00E8FCAF /* CaptureTouchesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
